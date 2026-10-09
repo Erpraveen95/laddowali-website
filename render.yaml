@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: laddowali-store
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: WHATSAPP_NUMBER
+        value: "919758711841"
