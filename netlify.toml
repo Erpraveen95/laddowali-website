@@ -1,0 +1,18 @@
+[build]
+  publish = "public"
+  command = "echo 'Static storefront ready; Netlify Functions are deployed from netlify/functions'"
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/checkout"
+  to = "/.netlify/functions/checkout"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/products"
+  to = "/.netlify/functions/products"
+  status = 200
+  force = true

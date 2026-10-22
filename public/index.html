@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7edcf">
+  <meta name="description" content="Handcrafted Indian laddoos made with millets, nuts, seeds and dates. Order Laddowali favourites on WhatsApp.">
+  <title>Laddowali — Traditional Goodness, Made with Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="announcement">Handcrafted in small batches · Freshness in every bite</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Laddowali home">
+      <span class="brand-mark">✺</span><span>Laddowali<small>TRADITIONAL GOODNESS</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    <nav id="nav">
+      <a href="#shop">Shop</a><a href="#story">Our Story</a><a href="#why">Why Laddowali</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-button" id="openCart">Bag <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A LITTLE TRADITION, A LOT OF LOVE</p>
+        <h1>Goodness you can<br><em>feel in every bite.</em></h1>
+        <p class="hero-text">Traditional Indian laddoos, lovingly made with wholesome millets, nuts, seeds and dates. A comforting treat for everyday moments and special celebrations.</p>
+        <div class="hero-actions"><a class="btn btn-dark" href="#shop">Explore our laddoos <span>↗</span></a><a class="text-link" href="#story">Our story <span>→</span></a></div>
+        <div class="hero-points"><span>✦ Carefully selected ingredients</span><span>✦ Small-batch preparation</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-image-frame"><img src="/assets/energy-booster.jpg" alt="A bowl of handcrafted laddoos with nuts and seeds"></div>
+        <div class="round-stamp">MADE WITH<br><b>LOVE</b><br>♡</div>
+        <div class="hero-note"><span>Handmade</span><b>Happiness, rolled by hand.</b></div>
+      </div>
+      <div class="hero-sun"></div>
+    </section>
+
+    <section class="trust-strip" id="why">
+      <div><span class="trust-icon">✿</span><p><b>Homemade taste</b><small>Familiar, comforting flavours</small></p></div>
+      <div><span class="trust-icon">❋</span><p><b>Thoughtful ingredients</b><small>Millets, nuts, seeds & dates</small></p></div>
+      <div><span class="trust-icon">♡</span><p><b>Made in small batches</b><small>Freshly prepared with care</small></p></div>
+      <div><span class="trust-icon">♧</span><p><b>Perfect for gifting</b><small>Little treats, big smiles</small></p></div>
+    </section>
+
+    <section class="shop section-pad" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE LADDOWALI COLLECTION</p><h2>Find your <em>favourite.</em></h2></div>
+        <p>From everyday nourishment to festive gifting, there’s a little something for every kind of craving.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image image-energy"><span class="product-tag">EVERYDAY FAVOURITE</span><img src="/assets/energy-booster.jpg" alt="Energy Booster Laddu"></div>
+          <div class="product-info"><div><h3>Energy Booster Laddu</h3><p>Ragi, almonds, pumpkin seeds & dates</p></div><div class="price">₹899 <small>/ kg</small></div></div>
+          <button class="add-button" data-add="energy">Add to bag <span>+</span></button>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-millet"><span class="product-tag">WHOLESOME PICK</span><img src="/assets/healthy-millet.jpg" alt="Healthy Millet Laddu"></div>
+          <div class="product-info"><div><h3>Healthy Millet Laddu</h3><p>Jowar, bajra & wholesome millets</p></div><div class="price">₹799 <small>/ kg</small></div></div>
+          <button class="add-button" data-add="millet">Add to bag <span>+</span></button>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-dryfruit"><span class="product-tag">RICH & DELICIOUS</span><img src="/assets/dry-fruit.jpg" alt="Dry Fruit Special laddoos"></div>
+          <div class="product-info"><div><h3>Dry Fruit Special</h3><p>Premium nuts, seeds & traditional flavours</p></div><div class="price">₹1,199 <small>/ kg</small></div></div>
+          <button class="add-button" data-add="dryfruit">Add to bag <span>+</span></button>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-festive"><span class="product-tag">MADE FOR SHARING</span><img src="/assets/festive-box.jpg" alt="Festive Special gift box"></div>
+          <div class="product-info"><div><h3>Festive Special Box</h3><p>A thoughtful assortment for your loved ones</p></div><div class="price">₹999 <small>/ box</small></div></div>
+          <button class="add-button" data-add="festive">Add to bag <span>+</span></button>
+        </article>
+      </div>
+      <p class="shop-note">Prices shown are indicative. We’ll confirm availability and delivery details with you on WhatsApp.</p>
+    </section>
+
+    <section class="story section-pad" id="story">
+      <div class="story-visual"><img src="/assets/laddowali-brand-brochure.jpg" alt="Laddowali brand brochure featuring traditional laddoos"><div class="story-caption">A little homemade<br><em>happiness.</em></div></div>
+      <div class="story-copy"><p class="eyebrow">OUR LITTLE STORY</p><h2>Old traditions.<br><em>Made for today.</em></h2><p>At Laddowali, we believe the simplest treats often carry the warmest memories. Inspired by traditional Indian kitchens, our laddoos bring together familiar flavours and thoughtfully chosen ingredients.</p><p>Every batch is prepared with care, so you can share a moment of sweetness with family, friends, or simply yourself.</p><a class="text-link" href="#shop">Meet the collection <span>→</span></a></div>
+    </section>
+
+    <section class="quote-band"><span class="quote-flower">✺</span><p>“A sweet little reminder that the best things are made with care.”</p><small>THE LADDOWALI WAY</small></section>
+
+    <section class="contact section-pad" id="contact">
+      <div><p class="eyebrow">LET'S TALK SOMETHING SWEET</p><h2>Need a little help<br><em>choosing?</em></h2><p>Ask us about ingredients, gifting, bulk orders or delivery. We’d love to help.</p></div>
+      <div class="contact-card"><span class="contact-whatsapp">☏</span><h3>We’re just a message away.</h3><p>Place an order or ask us a question directly on WhatsApp.</p><a class="btn btn-dark" target="_blank" rel="noopener" href="https://wa.me/919758711841?text=Hello%20Laddowali%2C%20I%27d%20like%20to%20know%20more.">Chat on WhatsApp ↗</a><small>WhatsApp: +91 97587 11841</small></div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">✺</span><span>Laddowali<small>TRADITIONAL GOODNESS</small></span></a><p>Traditional goodness, rolled with love.</p><div class="footer-links"><a href="#shop">Shop</a><a href="#story">Our Story</a><a href="#contact">Contact</a></div><small class="copyright">© <span id="year"></span> Laddowali. Made with care.</small></footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="cart-head"><div><p class="eyebrow">YOUR LITTLE BUNDLE</p><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button id="closeCart" class="close-button" aria-label="Close bag">×</button></div>
+    <div id="cartItems" class="cart-items"><div class="empty-cart"><span>♡</span><h3>Your bag is waiting.</h3><p>Add a little sweetness to get started.</p><button class="btn btn-dark" id="continueShopping">Explore the shop</button></div></div>
+    <div class="cart-bottom"><div class="subtotal"><span>Subtotal</span><b id="subtotal">₹0</b></div><small>Delivery charges, if any, will be confirmed on WhatsApp.</small><button id="checkoutButton" class="btn btn-dark checkout-button" disabled>Continue to checkout ↗</button></div>
+  </aside>
+
+  <div class="modal-backdrop" id="checkoutModal">
+    <div class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <button class="close-button modal-close" id="closeCheckout" aria-label="Close checkout">×</button>
+      <p class="eyebrow">ALMOST THERE</p><h2 id="checkoutTitle">Where should we<br><em>send the sweetness?</em></h2>
+      <p class="modal-intro">Share your details. We’ll prepare your order summary and open WhatsApp so you can send it to us.</p>
+      <form id="checkoutForm">
+        <label>Full name<input name="name" required maxlength="100" placeholder="Your name"></label>
+        <label>Phone number<input name="phone" required inputmode="tel" pattern="[0-9+() -]{8,20}" placeholder="Your contact number"></label>
+        <label>Delivery address<textarea name="address" required maxlength="500" rows="3" placeholder="House, street, city, PIN code"></textarea></label>
+        <label>Anything else? <small>(optional)</small><textarea name="note" maxlength="300" rows="2" placeholder="Delivery preference, gift note, etc."></textarea></label>
+        <div class="checkout-total"><span>Order subtotal</span><b id="checkoutSubtotal">₹0</b></div>
+        <p class="form-error" id="formError" role="alert"></p>
+        <button class="btn btn-dark checkout-button" type="submit" id="placeOrder">Prepare WhatsApp order ↗</button>
+        <small class="privacy-note">Your order is not paid online. We’ll confirm the order and payment/delivery details with you directly.</small>
+      </form>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
